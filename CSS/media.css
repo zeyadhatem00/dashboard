@@ -1,0 +1,183 @@
+@media screen and (max-width: 600px) {
+  aside {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 2px;
+    box-sizing: border-box;
+  }
+  header {
+    width: 100%;
+    margin-bottom: 0;
+    padding: 16px;
+  }
+  .head {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 16px 0 24px;
+    align-content: center;
+  }
+  .balance {
+    font-size: 30px;
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+    column-gap: 70px;
+  }
+  .left {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 70px;
+  }
+  .upper {
+    column-gap: 10px;
+  }
+  .left-image {
+    width: 35px;
+  }
+  .upper h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+  .upper p {
+    font-size: 12px;
+    margin: 0;
+  }
+  .seif {
+    font-size: 11px;
+    margin: 0;
+  }
+  .account {
+    font-size: 11px;
+  }
+  .left-content {
+    padding: 8px 8px;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 1fr 0.1fr 0.2fr 0.2fr 0.95fr 0.2fr 0.2fr 0.2fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    row-gap: 24px;
+
+    grid-auto-flow: row;
+    grid-template-areas:
+      "carrent-balance"
+      "income"
+      "spendings"
+      "latest-activity"
+      "table-inf"
+      "table-inf"
+      "monthly-pills"
+      "general-look"
+      "general-look"
+      "chart"
+      "summary"
+      "credit-cards"
+      "credit-cards";
+    width: 100%;
+    height: 100%;
+    padding: 16px 16px 32px;
+  }
+
+  .carrent-balance {
+    grid-area: carrent-balance;
+    width: 100%;
+  }
+
+  .income {
+    grid-area: income;
+    width: 100%;
+  }
+
+  .spendings {
+    grid-area: spendings;
+    width: 100%;
+  }
+
+  .latest-activity {
+    grid-area: latest-activity;
+    width: 100%;
+  }
+
+  .table {
+    grid-area: table-inf;
+    width: 100%;
+    padding: 16px;
+  }
+  .table-scroll {
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  table {
+    width: 170%;
+    height: 40%;
+  }
+  .monthly-pills {
+    grid-area: monthly-pills;
+    width: 100%;
+  }
+
+  .general-look {
+    grid-area: general-look;
+    width: 100%;
+    height: 100%;
+  }
+
+  .chart {
+    grid-area: chart;
+    width: 100%;
+  }
+
+  .summary {
+    grid-area: summary;
+    width: 100%;
+  }
+  .date {
+    font-size: 13px;
+  }
+  .budget-2 {
+    font-size: 13px;
+  }
+  .t-head {
+    font-size: 13px;
+  }
+  .budget {
+    font-size: 13px;
+  }
+  .credit-cards {
+    grid-area: credit-cards;
+    width: 100%;
+  }
+  .td-1 {
+    padding: 8px 4px;
+    display: flex;
+    align-items: center;
+  }
+  .td-2 {
+    padding: 8px 4px;
+  }
+
+  .p-m {
+    font-size: 12px;
+  }
+  .p-m-1 {
+    font-size: 12px;
+  }
+}

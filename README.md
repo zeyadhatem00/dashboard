@@ -32,7 +32,7 @@ There is no `package.json`, lockfile, build tool, JavaScript bundle, environment
 1. Clone the repository and enter it:
 
    ```bash
-   git clone --depth 1 https://github.com/zeyadhatem00/dashboard.git
+   git clone --depth 1 https://github.com/zeyadhatem00/personal-finance-dashboard.git
    cd dashboard
    ```
 
@@ -63,5 +63,5 @@ The included GitHub Actions workflow deploys the complete repository to GitHub P
 
 ## Repository
 
-- Source: [zeyadhatem00/dashboard](https://github.com/zeyadhatem00/dashboard)
+- Source: [zeyadhatem00/dashboard](https://github.com/zeyadhatem00/personal-finance-dashboard)
 - Default branch: `main`
